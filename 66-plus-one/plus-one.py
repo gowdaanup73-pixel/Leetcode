@@ -5,5 +5,6 @@ class Solution:
             if dig[i] < 9:
                 dig[i] += 1
                 return dig
+                
             dig[i] = 0
         return [1] + dig
